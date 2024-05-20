@@ -11,5 +11,4 @@ A simple project to make a website of plating games with friends and classmates.
 - Anish Goenka
 - Koustav Mohapatra
 - Ayush Suman
-- Eshita Yadav
 - Rupesh Kumar
