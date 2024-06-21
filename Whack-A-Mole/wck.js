@@ -89,3 +89,16 @@ function selectTile(){
         gameOver = true;
     }
 }
+
+// Add event listener for the send button
+document.getElementById("send-btn").addEventListener("click", function() {
+    // Get the chat input value
+    var chatInput = document.getElementById("chat-input").value;
+
+    // Clear the input field
+    document.getElementById("chat-input").value = "";
+
+    // Add the chat message to the chat log
+    var chatLog = document.getElementById("chat-log");
+    chatLog.innerHTML += "<p>" + chatInput + "</p>";
+});
